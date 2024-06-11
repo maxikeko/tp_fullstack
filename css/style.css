@@ -24,3 +24,20 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+.boton_verde{
+    color: white;
+    background-color: #3C9189;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+}
+
+.boton_naranja{
+    color: #FB7641;
+    background-color: white;
+    border-color:  #FB7641;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+}
