@@ -30,10 +30,11 @@ body{
     border: 0;
     transform: rotate(90deg) ;
     color: white    ;
+    font-weight: bold;
 }
 .botones_v:hover{
     background-color: white;
-    color: black;
+    color: #3C9189;
 }
 .botones_s1{
     display: flex;
@@ -47,6 +48,7 @@ body{
     border-radius: 8px;
     width: 200px;
     height: 40px;
+    font-weight: bold;
 }
 
 .boton_naranja{
@@ -58,8 +60,48 @@ body{
     border-radius: 8px;
     width: 200px;
     height: 40px;
+    font-weight: bold;
+    font-family: Mont;
 }
 .nav_menu{
     display: flex;
     justify-content: space-between;
+}
+
+.box-naranja{
+    background-color: #FFF5F0;
+    border-style: solid;
+    border-width: 0px 1px 0px 1px; /* 0px top, 1px right, 0px bottom and 1px left */
+    border-color: gray;
+}
+
+.triple-caja{
+    padding: 30px;
+  
+}
+.contenedor-triple{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: gray;
+}    
+
+.s1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.s1-div{
+     margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.s2{
+    margin-top: 50px;
+}
+
+.hr1{
+    margin-top: 0px;
+    padding-top: 0px;
 }
