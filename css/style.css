@@ -8,16 +8,28 @@ body{
 .foto_perfil{
     height: 300px;
 }
+
+.naranja{
+    color: #FB7641;
+    font-family: serif;
+    font-weight: bold;
+}
 .botones_verticales{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   
+    justify-content: space-around;
+    background-color: #3C9189;
+    border-radius: 8px;
     
 }
-.botones{
-    width: 100px;
-    
+.botones_v{
+    width: 90px;
+    height: 50px;
+    background-color: #50A59D;
+    border-radius: 8px;
+    border: 0;
+    transform: rotate(90deg) ;
+    color: white    ;
 }
 
 .botones_s1{
@@ -28,6 +40,7 @@ body{
 .boton_verde{
     color: white;
     background-color: #3C9189;
+    border: 0;
     border-radius: 8px;
     width: 200px;
     height: 40px;
@@ -36,8 +49,14 @@ body{
 .boton_naranja{
     color: #FB7641;
     background-color: white;
+    border: solid;
+    border-width: medium;
     border-color:  #FB7641;
     border-radius: 8px;
     width: 200px;
     height: 40px;
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
 }
