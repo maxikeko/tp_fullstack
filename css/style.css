@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.foto_perfil{
+    height: 300px;
+}
+.botones_verticales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+.botones{
+    width: 100px;
+    
+}
+
+.botones_s1{
+    display: flex;
+    justify-content: space-around;
+}
