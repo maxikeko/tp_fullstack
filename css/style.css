@@ -31,7 +31,10 @@ body{
     transform: rotate(90deg) ;
     color: white    ;
 }
-
+.botones_v:hover{
+    background-color: white;
+    color: black;
+}
 .botones_s1{
     display: flex;
     justify-content: space-around;
