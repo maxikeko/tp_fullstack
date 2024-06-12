@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 *{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -17,6 +17,18 @@ body{
 
 .foto_perfil{
     height: 300px;
+}
+
+.txt_nombre{
+    font-weight: bold;
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+.img{
+    width: 100px;
 }
 .menu{
     display: flex;
@@ -119,7 +131,7 @@ body{
 }
 
 .triple-caja:hover{
-    background-color: #3C9189;
+    background-color: #50A59D;
     color: white;
 }
 .contenedor-triple{
@@ -165,3 +177,41 @@ body{
     color: #FB7641;
     font-weight: bold;
 }
+
+
+
+@media (max-width: 575.98px) { 
+  .boton_verde{
+        color: white;
+        background-color: #3C9189;
+        border: 0;
+        border-radius: 8px;
+        width: 100px;
+        height: 60px;
+        font-weight: bold;
+    }
+    .boton_verde:hover{
+        
+        background-color: #50A59D;
+        color: white;
+        font-size: 100%;
+
+    }
+
+    .contenedor-triple{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+
+    
+
+    }    
+    .nav_menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+ }

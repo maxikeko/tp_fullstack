@@ -10,7 +10,7 @@
 <body>
    
 
-    <nav class="navbar navbar-expand-lg  d-flex justify-content-between">
+    <nav class="navbar navbar-expand-lg  d-flex flex-row flex-nowrap flex-sm-column flex-md-column flex-lg-row justify-content-lg-between container nav_menu">
         <div class="logo">
             <img class="w-50" src="/imgs/logo.png" alt="logo">
 
@@ -26,8 +26,10 @@
 
         
           
-       
-        <button class="boton_naranja">Contact Me</button>
+        <div>
+
+            <button class="boton_naranja">Contact Me</button>
+        </div>
       </nav>
 
 
@@ -36,9 +38,9 @@
     <main>
         <section class="s1">
             
-                <div class="d-flex justify-content-center s1-div">
+                <div class="d-flex flex-row flex-nowrap flex-sm-column flex-md-row flex-lg-row justify-content-center s1-div container">
                     <div class="w-50">
-                        <h2>Hi, i am jackson alvart</h2>
+                        <h2 class="txt_nombre">Hi, I Am Jackson Alvart,</h2>
                         <h2 class="naranja">Expert Visual designer</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, blanditiis. Sapiente doloremque dolores aperiam sit. Dignissimos error voluptatum rerum ullam accusamus tempora, alias asperiores? Maxime quis ea modi rem enim!</p>
                         <div class="botones_s1">
@@ -49,10 +51,16 @@
                     </div>
     
                     <div><img class="foto_perfil" src="/imgs/foto_perfil.png" alt="fotoPerfil"></div>
-                    <div class="botones_verticales">
-                        <button class="botones_v">Dribble</button>
-                        <button class="botones_v">Linkedin</button>
-                        <button class="botones_v">Behance</button>
+                    <div class="botones_verticales d-flex flex-row flex-sm-row flex-md-column flex-lg-column">
+                        <a href="https://www.linkedin.com/in/bertoli-jonathan-maximiliano/" style="list-style-type: none; text-decoration: none;" target="_blank">
+                            <button class="botones_v">Linkedin</button>
+                        </a>
+                        <a href="https://dribbble.com/shots/24022192-Personal-portfolio-website" style="list-style-type: none; text-decoration: none;" target="_blank">
+                            <button class="botones_v">Dribble</button>
+                        </a>
+                        <a href="https://dribbble.com/shots/24022192-Personal-portfolio-website" style="list-style-type: none; text-decoration: none;" target="_blank">
+                            <button class="botones_v">Behance</button>
+                        </a>
                     </div>
                     
                 </div>
@@ -65,19 +73,19 @@
 
         
         <section class="d-flex justify-content-center s2">
-            <div class="d-flex justify-content-center w-75 contenedor-triple">
+            <div class="d-flex flex-nowrap flex-row flex-sm-column flex-md-column flex-lg-row justify-content-center w-75 contenedor-triple container">
                 <div class="triple-caja">
-                    <img src="" alt="icono">
+                    <img class="img" src="./imgs/icon1-removebg-preview.png" alt="icono">
                     <h3>Website Design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa ab iure ipsa earum incidunt rerum dolores </p>
                 </div>
                 <div class="triple-caja box-naranja">
-                    <img src="" alt="icono">
+                    <img class="img" src="./imgs/icon2-removebg-preview.png" alt="icono">
                     <h3>Dashboard Design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa ab iure ipsa earum incidunt rerum dolores </p>
                 </div>
                 <div class="triple-caja">
-                    <img src="" alt="icono">
+                    <img class="img" src="./imgs/icon3-removebg-preview.png" alt="icono">
                     <h3>Mobile App Design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa ab iure ipsa earum incidunt rerum dolores </p>
                 </div>
@@ -85,12 +93,7 @@
         </section>
         
         
-        <section>
-
-        </section>
-        
-        <section></section>
-        <section></section>
+      
 
 
     </main>
