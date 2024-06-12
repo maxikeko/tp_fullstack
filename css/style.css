@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
 body{
     background-color: white;
     padding-top: 20px;
@@ -5,9 +14,25 @@ body{
     padding-right: 100px;
     padding-bottom: 20px;
 }
+
 .foto_perfil{
     height: 300px;
 }
+.menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.menulinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.logo{
+   width: 250px;
+}
+
+
 
 .naranja{
     color: #FB7641;
@@ -50,7 +75,13 @@ body{
     height: 40px;
     font-weight: bold;
 }
+.boton_verde:hover{
+    
+    background-color: #50A59D;
+    color: white;
+    font-size: 102%;
 
+}
 .boton_naranja{
     color: #FB7641;
     background-color: white;
@@ -61,8 +92,15 @@ body{
     width: 200px;
     height: 40px;
     font-weight: bold;
-    font-family: Mont;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
+.boton_naranja:hover{
+    color: white;
+    background-color: #FB7641;
+}
+
 .nav_menu{
     display: flex;
     justify-content: space-between;
@@ -78,6 +116,11 @@ body{
 .triple-caja{
     padding: 30px;
   
+}
+
+.triple-caja:hover{
+    background-color: #3C9189;
+    color: white;
 }
 .contenedor-triple{
     border-style: solid;
@@ -104,4 +147,21 @@ body{
 .hr1{
     margin-top: 0px;
     padding-top: 0px;
+}
+.menulinks{
+    display: flex;
+    
+
+}
+.titulos-menu{
+    color: gray;
+    margin: 5px;
+    padding: 2px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.titulos-menu:hover{
+    color: #FB7641;
+    font-weight: bold;
 }
